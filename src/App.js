@@ -2,16 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './components/MenuComponent';
+import Header from './components/Header';
 
 function App() {
   return (
     <div >
-      <Navbar dark color="primary">
-          <div className="container">
-            <NavbarBrand href="/">Home</NavbarBrand>
-            
-          </div>
-        </Navbar>
+        <Header/> 
         <Menu/>
     </div>
   );

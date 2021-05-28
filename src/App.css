@@ -1,0 +1,13 @@
+.header-logo {
+    width: 10rem;
+    height: 7rem;
+}
+
+.header-main {
+    display:  flex;
+    justify-content:  space-around;
+}
+.header-menu {
+    padding: 1rem;
+}
+
