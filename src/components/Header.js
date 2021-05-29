@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {Navbar, NavbarBrand} from 'reactstrap';
-import Logo from './logo.png';
+
 
 class Header extends Component {
     render() {
         return (
             <div className="header-main">
                 <Navbar >
-                     <img src={Logo} className="header-logo" /> 
+                     <img src="/assets/images/logo.png" alt="image" className="header-logo"/>
                 </Navbar>
                 <Navbar variant="light" bg="light">
                     <div >

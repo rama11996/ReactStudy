@@ -1,3 +1,9 @@
+body {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
 .header-logo {
     width: 10rem;
     height: 7rem;
@@ -9,5 +15,9 @@
 }
 .header-menu {
     padding: 1rem;
+}
+
+.banner-image {
+    width: 100%;
 }
 
