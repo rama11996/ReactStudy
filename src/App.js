@@ -24,6 +24,7 @@ class App extends Component {
             <img src="/assets/images/banner_image.jpg" alt="image" className="banner-image"/>
           </div>
           <Menu dishes={this.state.dishes} />
+          
           <About about={this.state.about} />
   
       </div>
