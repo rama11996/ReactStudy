@@ -3,6 +3,13 @@ import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from 're
 import "bootstrap/dist/css/bootstrap.min.css"
 
 class DishDetail extends Component {
+
+    componentDidMount(){
+        console.log("Dish Component DidMount");
+    }
+    componentDidUpdate() {
+        console.log("Dish Component Update");
+    }
     render() {
         const {dish} = this.props;
         return (  
@@ -13,6 +20,7 @@ class DishDetail extends Component {
     }
 
     renderDish(dish) {
+        console.log("Dish Component invoaked");
         if (dish != null) {
             return (
                 <React.Fragment>
