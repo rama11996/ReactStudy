@@ -1,11 +1,12 @@
 import '../App.css';
 import Menu from './MenuComponent';
-import Header from './Header';
+import Header from './HeaderComponent';
 import About from './AboutComponet';
 import { DISHES } from '../shared/dishes';
 import { ABOUT } from '../shared/About';
 import DishDetail from './DishDetailComponent';
 import { Component } from 'react';
+import Footer from './FooterComponent';
 
 class Main extends Component {
   constructor(props) {
@@ -30,6 +31,7 @@ class Main extends Component {
           <Menu dishes={this.state.dishes} onClick = { (dishId) => this.onDishSelect(dishId)} />
           <DishDetail dish = { this.state.dishes.filter((dish) => dish.id === this.state.selectedDish)[0]}/>
           <About about={this.state.about} />
+          <Footer />
           
   
       </div>
