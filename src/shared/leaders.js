@@ -2,7 +2,7 @@ export const LEADERS = [
     {
       id: 0,
       name: 'Peter Pan',
-      image: '/assets/images/Raja_2.png',
+      image: '/assets/images/alberto.png',
       designation: 'Chief Epicurious Officer',
       abbr: 'CEO',
       featured: false,
@@ -14,7 +14,7 @@ export const LEADERS = [
       image: '/assets/images/alberto.png',
       designation: 'Chief Food Officer',
       abbr: 'CFO',
-        featured: false,
+      featured: false,
       description: 'Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!'
     },
     {
@@ -29,7 +29,7 @@ export const LEADERS = [
     {
       id: 3,
       name: 'Alberto Somayya',
-      image: '/assets/images/Raja_2.png',
+      image: '/assets/images/alberto.png',
       designation: 'Executive Chef',
       abbr: 'EC',
       featured: true,

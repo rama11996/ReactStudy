@@ -39,5 +39,15 @@ export const DISHES =
         price:'2.99',
         featured: false,
         description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'
-        }
+        },
+        {
+            id: 4,
+            name:'ElaiCheese Cake',
+            image: '/assets/images/elaicheesecake.png',
+            category: 'dessert',
+            label:'',
+            price:'2.99',
+            featured: false,
+            description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'
+            }
     ];
