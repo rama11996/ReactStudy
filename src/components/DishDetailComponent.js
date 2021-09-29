@@ -27,6 +27,7 @@ const minLength = (len)=>(val)=>(val)&&(val.length>=len)
     submitHandle=(values)=>
     {
         this.handleToggle();
+        alert('Current State is: ' + JSON.stringify(values));
 
     }
     render() {
